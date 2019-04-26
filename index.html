@@ -18,13 +18,82 @@
 	</style>
 	<!-- development version, includes helpful console warnings -->
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+	<style>
+    	.title {
+		width: 1600px;
+		background-color: white;
 	
-    <title>Data Science Project</title>
+		position:absolute;
+    	left:0; right:0;
+    	top:50px;
+		margin:auto;
+	
+		max-width:100%;
+		max-height:100%;
+		}
+
+		.content {
+			width: 1520px;
+			height: 1920px;
+			background-color: white;
+	
+			position:absolute;
+			top:250px;
+    		left:0; right:0;
+			margin:auto;
+		}
+
+		.center {
+			position:absolute;
+    		left:0; right:0;
+    		top:50px;
+			margin:auto;
+			max-width:100%;
+		max-height:100%;
+		}
+
+		.parallax { 
+    	/* The image used */
+    	background-image: url("background.jpg");
+
+    	/* Set a specific height */
+    	height: 500px; 
+
+    	/* Create the parallax scrolling effect */
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+		}
+
+		/* Adds a shadow on containers */
+		.shadow {
+  			box-shadow: 0px 6px 10px black;
+		}
+
+		/* Border */
+		.myborder {
+			border: 5px solid orange;
+		}
+	</style>
+	
+    <title>Kaggle Dataset Analysis</title>
 </head>
 
 <!-- Body -->
 <body class = "parallax">
-	<h1 class = "text-center">Data Science Project</h1>
+	<div class = "title shadow myborder">
+		<h1 class = "text-center"><bold><font face = "Verdana" size = "20">Kaggle Dataset Analysis</font></bold></h1>
+		<h2 class = "text-center"><font face = "Verdana" size = "5">By Mining for the Minors</font></h2>
+	</div>
+
+	<div class = "content shadow myborder">
+		<h1 class = "text-center"><bold><font face = "Verdana" size = "20">Observations</font></bold></h1>
+		<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1500px; height: 1827px;'><object class='tableauViz' width='1500' height='1827' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;ds3001project' /><param name='name' value='kaggledatasetanalysis&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+	</div>
 </body>
 </html>
 
