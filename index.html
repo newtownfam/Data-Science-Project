@@ -24,6 +24,7 @@
 	<style>
     	.title {
 		width: 1600px;
+		height: 120px;
 		background-color: white;
 	
 		position:absolute;
@@ -41,8 +42,30 @@
 			background-color: white;
 	
 			position:absolute;
-			top:250px;
+			top:870px;
     		left:0; right:0;
+			margin:auto;
+		}
+
+		.about {
+			width: 1520px;
+			height: 200px;
+			background-color: white;
+			
+			position:absolute;
+			top:220px;
+    		left:200px;
+			margin:auto;
+		}
+
+		.factor {
+			width: 1520px;
+			height: 350px;
+			background-color: white;
+	
+			position:absolute;
+			top:470px;
+    		right:200px;
 			margin:auto;
 		}
 
@@ -51,8 +74,23 @@
     		left:0; right:0;
     		top:50px;
 			margin:auto;
+		}
+
+		.factorimage {
+			position:absolute;
+    		left:10px;
+    		top:50px;
+			margin:auto;
 			max-width:100%;
 		max-height:100%;
+		}
+
+		.factortext {
+			position:absolute;
+    		right:10px;
+    		top:100px;
+			margin:auto;
+			width: 950px;
 		}
 
 		.parallax { 
@@ -76,7 +114,7 @@
 
 		/* Border */
 		.myborder {
-			border: 5px solid orange;
+			border: 10px solid white;
 		}
 	</style>
 	
@@ -93,6 +131,18 @@
 	<div class = "content shadow myborder">
 		<h1 class = "text-center"><bold><font face = "Verdana" size = "20">Observations</font></bold></h1>
 		<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1500px; height: 1827px;'><object class='tableauViz' width='1500' height='1827' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;ds3001project' /><param name='name' value='kaggledatasetanalysis&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+	</div>
+
+	<div class = "shadow myborder about">
+		<h1 class = "text-center"><bold><font face = "Verdana" size = "20">About</font></bold></h1>
+		<p class = "text-center">For our project, we used a Kaggle dataset of Kaggle datasets which include attributes like dataset size, topic count, license, competition count, type and a boolean value for whether or not the dataset is featured. We used these values to create a decision tree that helps a user posting is dataset see whether or not their dataset will be featured. In particular, we encoded the dataset size, topic count, and competition count to help determine this status. Having a dataset featured determines its success as it will be easily accessible to all users, so being able to predict this using certain attributes will play a big role in helping a user determine the success of their dataset.</p>
+	</div>
+	<div class = "shadow myborder factor">
+		<h1 class = "text-center"><bold><font face = "Verdana" size = "20">Factors</font></bold></h1>
+		<div class = "factortext">
+			<p>The factors we used in the prediction of kaggle dataset success are dataset size, topic count, and competition count. We chose these values because the user has control over them and therefore can manipulate them in order to achieve dataset popularity. The dataset size is simply the amount of rows by columns in a dataset. The topic count is the amount of topics a dataset is linked to in a discussion board. Lasly, the competition count is the amount of competitions (a competition for the most successful dataset associated with a topic) a dataset belongs to.</p>
+		</div>
+		<img class = "factorimage" src = "factors.jpg" height = "250" width = "500">
 	</div>
 </body>
 </html>
