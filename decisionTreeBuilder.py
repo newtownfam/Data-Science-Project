@@ -14,7 +14,7 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier, export_graphviz
 import sklearn
 
-cleaned = pd.read_csv('C:/Users/Ally Nicolella/Documents/DS3001/Project/kaggle-datasets/cleanedKaggleData_41719_version3.csv')
+cleaned = pd.read_csv('cleanedKaggleData_41719_version4.csv')
 
 '''
 Encode topic count with following cutoffs/values:   
