@@ -10,15 +10,15 @@
 https://newtownfam.github.io
 
 ### Feature Encoding
-Topic Count:
-- (0):0
-- (1,4):1
-- (5,7):2
-- (8,11):3
-- (12,44):4
-- (45,90):5
+#### Topic Count
+- [0]:0
+- [1,5):1
+- [5,8):2
+- [8,12):3
+- [12,45):4
+- [45,90):5
 
-Data Size:
+#### Data Size
 - [0,500):0
 - [500,1000):1
 - [1000,6000):2
@@ -37,7 +37,7 @@ Data Size:
 - [100000000000,1000000000000):15
 - [1000000000000,100000000000000):16
 
-Competition Count:
+#### Competition Count
 - [0]:0
 - [1,3):1
 - [3,5):2
@@ -45,7 +45,7 @@ Competition Count:
 - [10,45):4
 - [45,87):5
 
-isFeatured:
+#### isFeatured
 - False: 0
 - True: 1
 
