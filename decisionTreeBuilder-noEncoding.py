@@ -24,53 +24,6 @@ col_names = ['datasetSize','topicCount','competitionCount','isFeatured']
 cleaned = pd.read_csv("cleanedKaggleData_41719_version5.csv", header=None, names=col_names)
 
 '''
-Encode topic count with following cutoffs/values:
-    (0):0
-    (1,4):1
-    (5,7):2
-    (8,11):3
-    (12,44):4
-    (45,90):5
-'''
-
-'''
-Encode dataSize with following cutoffs/values:
-    [0,500):0
-    [500,1000):1
-    [1000,6000):2
-    [6000,16000):3
-    [16000,50000):4
-    [50000,150000):5
-    [150000,300000):6
-    [300000,1000000):7
-    [1000000,2000000):8
-    [2000000,10000000):9
-    [10000000,100000000):10
-    [100000000,1000000000):11
-    [1000000000,10000000000):12
-    [10000000000,10000000000):13
-    [10000000000,100000000000):14
-    [100000000000,1000000000000):15
-    [1000000000000,100000000000000):16
-'''
-
-'''
-Encoded competitionCount using following cutoffs/values:
-    [0]:0
-    [1,3):1
-    [3,5):2
-    [5,10):3
-    [10,45):4
-    [45,87):5
-'''
-
-'''
-Encoded isFeatured using following cutoffs/values:
-    False: 0
-    True: 1
-'''
-
-'''
 Split the dataset into a training and test set in order to build and test a
 decision tree model for prediction. Print accuracy of the model.
 '''
