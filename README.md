@@ -11,7 +11,7 @@ https://newtownfam.github.io
 
 ### Feature Encoding
 #### Topic Count
-- [0]:0
+- 0:0
 - [1,5):1
 - [5,8):2
 - [8,12):3
@@ -38,7 +38,7 @@ https://newtownfam.github.io
 - [1000000000000,100000000000000):16
 
 #### Competition Count
-- [0]:0
+- 0:0
 - [1,3):1
 - [3,5):2
 - [5,10):3
