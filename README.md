@@ -37,7 +37,7 @@ Data Size:
 - [100000000000,1000000000000):15
 - [1000000000000,100000000000000):16
 
-Competition Count :
+Competition Count:
 - [0]:0
 - [1,3):1
 - [3,5):2
@@ -48,3 +48,6 @@ Competition Count :
 isFeatured:
 - False: 0
 - True: 1
+
+### Decision Tree Accuracy
+87.76%
