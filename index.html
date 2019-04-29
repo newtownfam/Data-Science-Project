@@ -120,6 +120,19 @@
       overflow: scroll;
     }
 
+    .downloadbtn {
+      position:absolute;
+    	left:50px;
+      right:50px;
+    	top:900px;
+      max-width: 100%;
+      max-height: 100%;
+      height: 600px;
+      width: auto;
+			margin:auto;
+      overflow: scroll;
+    }
+
 		.parallax {
     	/* The image used */
     	background-image: url("background.jpg");
@@ -187,7 +200,11 @@
       <div class="modelimage">
         <img src="decisionTree.png"/>
       </div>
-      <button class="btn" style="width:100%"><i class="fa fa-download"></i> Download Tree</button>
+      <div class="downloadbtn">
+        <form method="get" action="decisionTree.png">
+          <button class="btn" style="width:100%"><i class="fa fa-download"></i> Download Tree</button>
+        </form>
+      </div>
 		</div>
 	</div>
 
