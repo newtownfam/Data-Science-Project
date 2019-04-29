@@ -9,6 +9,22 @@
 ### Website Link
 https://newtownfam.github.io
 
+### Files
+- 1.png - Visual Asset
+- 2.png - Visual Asset
+- 3.png - Visual Asset
+- 4.png - Visual Asset
+- background.jpg - Visual Asset
+- cleanedKaggleData_41719_version5.csv - cleaned data for creation of decision tree
+- cleanedKaggleData_version4.csv - cleaned data for observations on dataset
+- Dashboard 1.pdf/png - Tableau observations which may not be accessible on the website due to lack of credentials
+- decisionTree.png - predicts whether or not a dataset will be featured or not
+- decisionTreeBuilder-noEncoding.ipynb/py - code used to generate decisionTree.png
+- decisionTreeBuilder.py - can encode cleanedKaggleData_version4.csv
+- index.html - website source code
+- kaggleProject.dot - dot file for decisionTree.png
+- projectDataCleaning.py - cleans original dataset
+
 ### Feature Encoding
 #### Topic Count
 - 0:0
