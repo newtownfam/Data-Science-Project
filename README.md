@@ -7,7 +7,7 @@
 - Joseph Yuen
 
 ### Website Link
-https://newtownfam.github.io
+https://newtownfam.github.io/Data-Science-Project
 
 ### Files
 - 1.png - Visual Asset
